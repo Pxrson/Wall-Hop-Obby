@@ -97,7 +97,7 @@ Tabs.Main:CreateParagraph("Welcome", {
 Tabs.Main:CreateSection("Random")
 
 Tabs.Main:CreateToggle("Auto Wall Hop", {
-    Title = "Auto Wall Hop",
+    Title = "Auto Wall Hop (not worked on yet)",
     Description = "Automatically hops walls for you.",
     Default = false
 }):OnChanged(function()
@@ -107,7 +107,7 @@ Tabs.Main:CreateToggle("Auto Wall Hop", {
             Content = "Auto wall hop enabled.",
             Duration = 5
         }
-        -- enter code here
+        -- code
     else
         Library:Notify{
             Title = "Auto Wall Hop",
