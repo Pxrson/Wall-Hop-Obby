@@ -87,9 +87,11 @@ local stages = {
     {Name = "55", Path = "Workspace.Stages.55", Position = Vector3.new(2406.5, 276.5, 2.4999547004699707)}
 }
 
+local playerName = game.Players.LocalPlayer.Name
+
 Tabs.Main:CreateParagraph("Welcome", {
     Title = "Greetings!",
-    Content = "Welcome to the Wall Hop Obby script. This script allows you to teleport through all stages of the game easily. Use the Teleport tab to access teleportation options. Enjoy the script please!"
+    Content = "Welcome, " .. playerName .. ", to my script!! This script allows you to teleport through all stages of the game easily. Use the Teleport tab to access teleportation options. Enjoy the script please!"
 })
 
 Tabs.Main:CreateSection("Random")
